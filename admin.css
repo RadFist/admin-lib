@@ -1,0 +1,51 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+.nav-link:hover{
+    background-color: rgb(4, 4, 4);
+}
+.display-4{
+    font-weight: bold;
+}
+.card-body-icon{
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 4px;
+    opacity: 0.4;
+    font-size: 90px;
+}
+.full-height{
+    height: 100%;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.edit{
+    background-color: #00ffbf;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 3px 0;
+   color: #000000;
+  }
+
+.delete{
+    background-color: #ff0000;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 3px 0;
+   color: #000000;
+  }
+  .bg-green{background-color: #00ffbf;}
+  
+  .global{
+      height: 100%;
+    }
+    
+.border-input{
+    border: 2px solid rgb(54, 54, 243);
+    border-radius: 10px ;
+}
