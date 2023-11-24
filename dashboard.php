@@ -64,7 +64,7 @@ if($_SESSION['log'] != 'login'){
                 <Div class="row text-white">
                     <!-- buku -->
                     <div class="card bg-warning ms-3" style="width: 18rem;">
-                        <div class="card-body">
+                        <div class="card-body mb-2">
                             <div class="card-body-icon">
                                 <i class="fa-solid fa-book me-2"></i>
                             </div>
@@ -72,9 +72,6 @@ if($_SESSION['log'] != 'login'){
                           <?php
                           echo"<h4 class='display-4'>$book_total</h4>"
                           ?>
-                          <a href="#" style="text-decoration: none;">
-                              <p class="card-text text-white">Lihat Detail <i class="fa-solid fa-angles-right"></i></p>
-                          </a>
                         </div>
                     </div>
 
@@ -88,9 +85,6 @@ if($_SESSION['log'] != 'login'){
                           <?php
                           echo "<h4 class='display-4'>$anggota_total</h4>"
                           ?>
-                          <a href="#" style="text-decoration: none;">
-                              <p class="card-text text-white">Lihat Detail <i class="fa-solid fa-angles-right"></i></p>
-                          </a>
                         </div>
                     </div>
 
@@ -104,10 +98,7 @@ if($_SESSION['log'] != 'login'){
                           <?php
                           echo"<h4 class='display-4'>$peminjam_total</h4>"
                           ?>
-                          <a href="#" style="text-decoration: none;">
-                              <p class="card-text text-white">Lihat Detail <i class="fa-solid fa-angles-right"></i></p>
-                          </a>
-                        </div>
+                          </div>
                     </div>
 
                 </Div>
