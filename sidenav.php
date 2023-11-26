@@ -1,5 +1,5 @@
 
-    <div class="row no-gutters mt-5 full-height">
+    <div class="row no-gutters mt-5 min-vh-100">
         <div class="col-md-2 mt-4 p-3 bg-secondary"> 
             <ul class="nav flex-column">
                 <li class="nav-item">
