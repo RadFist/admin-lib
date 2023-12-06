@@ -9,8 +9,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="admin.css">
     <link rel="stylesheet" href="asset/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.min.css">
+    
+    <link rel="stylesheet" href="datatables/datatables.css">
+    <script src="datatables/datatables.js"></script>
+    
     <title>Welcome to Library</title>
   </head>
+
+
+<!-- js tables -->
+<script>
+    $(document).ready(function(){
+        $('#tableformat').DataTable();
+    })
+</script>
+
   <body>
     <!-- header -->
      <?php
@@ -35,8 +48,8 @@
                   <?php } ?>
 
                 
-                <a href="input.php?tambah_anggota" class="btn btn-primary mb-1"><i class="fas fa-plus-square me-2"></i>Tambah Data Anggota</a>
-                <table class="table table-striped">
+                <a href="input.php?tambah_anggota" class="btn btn-primary mb-3"><i class="fas fa-plus-square me-2"></i>Tambah Data Anggota</a>
+                <table id="tableformat" class="table table-striped table-bordered table-hover">
                 <thead>
                     <tr>
                     <th scope="col">Nama</th>
